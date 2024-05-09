@@ -1,0 +1,69 @@
+body {
+	background: white;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+font-family: 'Montserrat', sans-serif;
+height: 100vh;
+margin: -20px 0 50px;
+}
+	.login{
+	border:1px solid black center/cover;
+	width: 400px;
+	height: 500px;
+	background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTshQAiGSO3OBHQXm-ItfKwbZ5Ep_7rqjKtoQ&usqp=CAU') no-repeat center/cover;
+	color: white;
+	position: relative;
+	overflow: hidden;
+	border-radius:20px ;
+	box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.75);
+}
+a{
+	color: white;
+}
+form{
+	display: block;
+	box-sizing: border-box;
+	padding: 40px;
+	width: 100%;
+	height: 100%;
+	backdrop-filter: brightness(40%);
+	flex-direction: column;
+	display: flex;
+	gap: 5px;
+}
+h1 {
+	font-size: 24px;
+	text-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
+	margin-bottom: 60px;
+}
+label{
+	color: rgba(225, 225, 225, 0.8);
+	text-transform: uppercase;
+	font-size: 10px;
+	letter-spacing: 2pxp;
+	padding-left: 10px;
+}
+input{
+	background: rgba(225, 225, 225, 0.3);
+	height: 40px;
+	line-height: 40px;
+	border-radius: 20px;
+	padding: 0 20px;
+	border: none;
+	margin-bottom: 20px;
+	color: white;
+}
+button{
+	background: rgb(45, 126, 231);
+	height: 40px;
+	line-height: 40px;
+	border-radius: 40px;
+	border: none;
+	margin: 10px 0;
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+	color: white;
+	font-size: 12px;
+	text-transform: uppercase;
+}

@@ -1,0 +1,78 @@
+*{
+	font-family: 'PT Sans',sans-serif;
+	margin: 0;
+	padding: 0;
+	line-height: 1.6;
+}
+body{
+	background: url('https://images.unsplash.com/photo-1515339760107-1952b7a08454?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D') no-repeat ;
+}
+.header a{
+	text-decoration: none ;
+	align-items: center;
+	justify-content: space-between;
+	margin-top: 20px;
+	padding: 20px ;
+	position: relative;
+	color: darksalmon;
+	border: 2px solid transparent;
+	border-radius: 25px;
+	z-index: 1px;
+	overflow: hidden;
+}
+.header a::before{
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 0;
+	height: 100%;
+	z-index: -1;
+	background: lightgrey;
+	transition: 0.5s;
+}
+.header a:hover::before{
+	width: 100%;
+}
+.section-maincontainer{
+	text-align: center;
+	padding: 20px 10%;
+}
+.section-maincontainer h1{
+	font-size: 84px;
+	font-weight: 700;
+}
+.section-maincontainer h3{
+	font-size: 45px;
+	font-weight: 700;
+}
+.section-maincontainer h5{
+	font-size: 20px;
+	font-weight: 700;
+}
+.section-maincontainer a{
+	text-align: center;
+	text-decoration: none;
+	color: black;
+	border: 2px solid darkgoldenrod;
+	border-radius: 10px;
+}
+.section-maincontainer a:hover{
+	background-color: darkred;
+}
+footer{
+	text-align: center;
+}
+.footer a{
+	position:relative;
+	justify-content: space-between;
+	border: 2px solid lightsteelblue;
+	border-radius: 50%;
+	padding: 8px;
+}
+.footer a:hover{
+	background-color: red;
+}
+.footer-bottom{
+	padding: 10px;
+}
